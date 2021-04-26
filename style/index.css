@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+    height: 70px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.buttons-header {
+    /* ! all: unset => resetar toda a estilização */
+    all: unset;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 140px;
+}
+
+.grid-main {
+    display: grid;
+    grid-area: 
+    "post1"
+    "post2"
+    "post3";
+    grid-gap: 40px;
+}
+
+.gridsize {
+    width: 730px;
+    height: 696px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 380px;
+    height: 1396px;  
+    padding: 40px;  
+}
+
+.sidebar>h2 {
+    border-left: 1px solid rgb(0, 0, 0, 0.8);
+}
+.categorias {
+    width: 340px;
+}
+.categorias>ul {
+    list-style-type: none;
+}
+.categorias>li{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.8);
+}
+.publicidade {
+    display: grid;
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(3, 240px);
+    grid-template-areas: "publi-grid1"
+               "publi-grid2"
+               "publi-grid3";
+    grid-gap: 32px;
+}
+
+.publi-grid1 {
+    grid-area: publi-grid1;
+    background-color: grey;
+}
+
+.publi-grid2 {
+    grid-area: publi-grid2;
+    background-color: grey;
+}
+
+.publi-grid3 {
+    grid-area: publi-grid3;
+    background-color: grey;
+}
+
+.centralize {
+    justify-content: center;
+}
+
+
+
+footer {
+    display: flex;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 70px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
