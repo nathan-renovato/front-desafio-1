@@ -1,0 +1,5 @@
+fazer:
+
+- sombra sidebar e main
+- :hover nos comentarios e nome
+- :active nos botões quando clicados (continuar lendo)

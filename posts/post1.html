@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caio Bukvar - Desafio 01</title>
 
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="../style/post1.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -55,9 +55,9 @@
 
         <!-- ? BOTÕES HEADER -->
         <div class="buttons">
-            <a href="index.html"><button class="buttons-header">Início</button></a>
-            <a href="contato.html"><button class="buttons-header">Sobre</button></a>
-            <a href="contato.html"><button class="buttons-header">Contato</button></a>
+            <a href="../index.html"><button class="buttons-header">Início</button></a>
+            <a href="../contato.html"><button class="buttons-header">Sobre</button></a>
+            <a href="../contato.html"><button class="buttons-header">Contato</button></a>
         </div>
 
 
@@ -72,7 +72,10 @@
                     <h3>Lore ipsum dolor sit amet</h3>
                     <p class="subtitle">26/04/2021 às 16:54 - By: Caio Bukvar</p>
                 </div>
-                <img src="./assets/pessoa.png" alt="">
+
+                <img src="../assets/pessoa.png" alt="">
+
+
                 <div class="post-bot">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
                         vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin
@@ -82,52 +85,64 @@
                         enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
                         vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
                     </p>
-                </div>
-                <div class="button-post">
-                    <a href="./posts/post1.html"><button>Continuar lendo</button></a>
-                </div>
-            </div>
-            <div class="grid-post2 gridsize bg-white">
-                <div class="post-top">
-                    <h3>Lore ipsum dolor sit amet</h3>
-                    <p class="subtitle">26/04/2021 às 14:15 - By: Caio Bukvar</p>
-                </div>
-                <img src="./assets/computador.png" alt="">
-                <div class="post-bot">
+                    <ul style="margin-left: 50px;">
+                        <li>Lorem ipsum dolor sit amet consectetur.
+                            <ul style="margin-left: 50px;">
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Numqueam, similique debitis!</li>
+                                <li>Itaque, nam labore?</li>
+                            </ul>
+                        </li>
+                        <li>Quibusdam sapiente velit nulla delectus enim?</li>
+                        <li>Officia dolore autem sint aliquid commodi!</li>
+                        <li>Eius asperiores deserunt aliquid animi quo.</li>
+                        <li>Saepe explicabo blanditiis aspernatur suscipit voluptates.</li>
+                    </ul>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus
+                        quis augue elementum
+                        vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin
+                        nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.</p>
+                    <br>
+                    <p style="font-style: italic;">Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus.
+                        Etiam diam nisl, feugiat ornare
+                        enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
+                        vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.</p>
+                    <br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
                         vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin
                         nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
 
                         Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare
                         enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
-                        vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
-                    </p>
-                </div>
-                <div class="button-post">
-                    <a href=""><button>Continuar lendo</button></a>
+                        vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.</p>
                 </div>
             </div>
 
-            <div class="grid-post3 gridsize bg-white">
-                <div class="post-top">
-                    <h3>Lore ipsum dolor sit amet</h3>
-                    <p class="subtitle">26/04/2021 às 11:32 - By: Caio Bukvar</p>
-                </div>
-                <img src="./assets/pintura.png" alt="">
-                <div class="post-bot">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
-                        vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin
-                        nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
+            <div class="boxComentarios">
+                <h3>Comentários</h3>
+                <br>
+                <div class="dados">
+                    <div class="dadosNome">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="Nome">
+                    </div>
+                    <div class="dadosEmail">
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" name="Email">
+                    </div>
 
-                        Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare
-                        enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
-                        vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
-                    </p>
                 </div>
-                <div class="button-post">
-                    <a href=""><button>Continuar lendo</button></a>
+                <div class="comentario">
+                    <label for="comentario">Comentário:</label>
+                    <textarea type="text" id="comentario" name="Comentario"></textarea>
                 </div>
             </div>
+            <div class="botaoComentar">
+                <button>Comentar</button>
+            </div>
+
+
         </div>
         <!-- ! sidebar: categorias e publicidade - 380px width 1396px height -->
         <div class="sidebar bg-white">
@@ -189,7 +204,6 @@
                 <div class="publi-grid2">340 x 240</div>
                 <div class="publi-grid3">340 x 240</div>
             </div>
-
         </div>
     </div>
     <footer>

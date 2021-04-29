@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caio Bukvar - Desafio 01</title>
 
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="./style/contato.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -56,7 +56,7 @@
         <!-- ? BOTÕES HEADER -->
         <div class="buttons">
             <a href="index.html"><button class="buttons-header">Início</button></a>
-            <a href="contato.html"><button class="buttons-header">Sobre</button></a>
+            <a href="contato.hmtl"><button class="buttons-header">Sobre</button></a>
             <a href="contato.html"><button class="buttons-header">Contato</button></a>
         </div>
 
@@ -69,65 +69,64 @@
             <!-- ? GRID com 3 posts 730px width-->
             <div class="grid-post1 gridsize bg-white">
                 <div class="post-top">
-                    <h3>Lore ipsum dolor sit amet</h3>
-                    <p class="subtitle">26/04/2021 às 16:54 - By: Caio Bukvar</p>
-                </div>
-                <img src="./assets/pessoa.png" alt="">
-                <div class="post-bot">
+                    <h3>Contato</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
                         vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin
-                        nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
-
-                        Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare
-                        enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
-                        vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
-                    </p>
+                        nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam. </p>
                 </div>
-                <div class="button-post">
-                    <a href="./posts/post1.html"><button>Continuar lendo</button></a>
+                <div class="infoContato">
+                    <h3>INFORMAÇÕES PARA CONTATO</h3>
+                    <br>
+                    <div class="infoEndereco">
+                        <img src="./assets/localizacao.png" alt="pinpoint">
+                        <h4>Endereço</h4>
+                    </div>
+                    <p>Av. Tancredo Neves, 2227, Ed. Salvador Prime Caminho das Árvortes, Salvador - Bahia</p>
+                    <br>
+                    <div class="infoTelefone">
+                        <img src="./assets/telefone.png" alt="telefone">
+                        <h4>Telefone</h4>
+                    </div>
+                    <p>(71) 9 9999-9999 | (11) 1 1111-1111</p>
+                    <br>
+                    <div class="infoSuporte">
+                        <img src="./assets/headset.png" alt="headset">
+                        <h4>Suporte</h4>
+                    </div>
+                    <p>suporte@cubos.academy</p>
+
+                </div>
+                <div class="boxComentarios">
+                    <h3>ENTRE EM CONTATO</h3>
+                    <br>
+                    <div class="dados">
+                        <div class="dadosNome">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="Nome">
+                        </div>
+                        <div class="dadosEmail">
+                            <label for="email">E-mail:</label>
+                            <input type="text" id="email" name="Email">
+                        </div>
+                    </div>
+                    <div class="dadosAssunto">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="Assunto">
+                    </div>
+
+                    <div class="comentario">
+                        <label for="comentario">Comentário:</label>
+                        <textarea type="text" id="comentario" name="Comentario"></textarea>
+                    </div>
+                </div>
+                <div class="botaoEnviar">
+                    <button>Enviar</button>
                 </div>
             </div>
-            <div class="grid-post2 gridsize bg-white">
-                <div class="post-top">
-                    <h3>Lore ipsum dolor sit amet</h3>
-                    <p class="subtitle">26/04/2021 às 14:15 - By: Caio Bukvar</p>
-                </div>
-                <img src="./assets/computador.png" alt="">
-                <div class="post-bot">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
-                        vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin
-                        nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
 
-                        Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare
-                        enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
-                        vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
-                    </p>
-                </div>
-                <div class="button-post">
-                    <a href=""><button>Continuar lendo</button></a>
-                </div>
-            </div>
 
-            <div class="grid-post3 gridsize bg-white">
-                <div class="post-top">
-                    <h3>Lore ipsum dolor sit amet</h3>
-                    <p class="subtitle">26/04/2021 às 11:32 - By: Caio Bukvar</p>
-                </div>
-                <img src="./assets/pintura.png" alt="">
-                <div class="post-bot">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
-                        vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin
-                        nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
 
-                        Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare
-                        enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
-                        vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
-                    </p>
-                </div>
-                <div class="button-post">
-                    <a href=""><button>Continuar lendo</button></a>
-                </div>
-            </div>
+
         </div>
         <!-- ! sidebar: categorias e publicidade - 380px width 1396px height -->
         <div class="sidebar bg-white">
@@ -189,7 +188,6 @@
                 <div class="publi-grid2">340 x 240</div>
                 <div class="publi-grid3">340 x 240</div>
             </div>
-
         </div>
     </div>
     <footer>
